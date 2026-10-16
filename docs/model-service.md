@@ -8,7 +8,7 @@ The service does not run Nemotron Parse 3.5. Use the Parse endpoint supplied by 
 
 The organizer can provide a built image. Set the image name in your run command. Use an image digest when the organizer supplies one.
 
-To build the image, use a Linux amd64 Docker builder with internet access and at least 30 GB of free disk space. The recipe uses Python 3.11, PyTorch 2.8.0, CUDA 12.8, and Transformers 4.56.2. It pins the base image digest and Python package hashes.
+To build the image, use a Linux amd64 Docker builder with internet access and at least 60 GB of free disk space for the image and build cache. The recipe uses Python 3.11, PyTorch 2.8.0, CUDA 12.8, and Transformers 4.56.2. It pins the base image digest and Python package hashes.
 
 To run inference, use Linux, Docker, an NVIDIA driver that supports CUDA 12.8, and NVIDIA Container Toolkit. Use a GPU with BF16 support. The reference hardware is one RTX PRO 6000 Blackwell Server Edition with 96 GB of GPU memory. Other compatible GPUs can work. Their memory and response times need a test with your inputs.
 
