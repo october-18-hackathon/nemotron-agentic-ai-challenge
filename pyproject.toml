@@ -1,0 +1,32 @@
+[build-system]
+requires = ["hatchling==1.32.4"]
+build-backend = "hatchling.build"
+
+[project]
+name = "nemotron-agentic-ai-challenge"
+version = "0.1.0"
+description = "A scaffold for the Nemotron Agentic AI Challenge"
+readme = "README.md"
+requires-python = ">=3.12,<3.14"
+license = "MIT"
+dependencies = [
+  "httpx==0.28.1",
+  "pydantic==2.14.1",
+  "python-dotenv==1.2.4",
+  "lancedb==0.40.0",
+  "pyarrow==21.0.0",
+  "huggingface-hub==2.2.0",
+]
+
+[project.scripts]
+nemotron-challenge = "nemotron_challenge.cli:main"
+
+[dependency-groups]
+dev = ["pytest==9.1.1"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/nemotron_challenge"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

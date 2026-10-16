@@ -1,0 +1,6 @@
+# CPU contract tests. These do not load model weights or prove GPU inference.
+fastapi==0.116.1
+pydantic==2.11.9
+Pillow==11.3.0
+httpx==0.28.1
+pytest==9.1.1

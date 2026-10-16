@@ -1,0 +1,825 @@
+{
+  "schema_version": 1,
+  "dataset": "NationalLibraryOfScotland/encyclopaedia_britannica_illustrated",
+  "revision": "309f765b1ecc83e0a7f7762e44b4a927a7555443",
+  "split": "train",
+  "source_file": "data/train-00000-of-00001.parquet",
+  "source_file_sha256": "08f167015db23cb027995b2b6a6bc953b01d7c1ddf667de950465cc2b601af5c",
+  "source_file_bytes": 373913666,
+  "source_rows": 2573,
+  "sample_size": 100,
+  "selection": {
+    "method": "random_without_replacement",
+    "seed": 20261016,
+    "sort": "source_row_index"
+  },
+  "source_url": "https://huggingface.co/datasets/NationalLibraryOfScotland/encyclopaedia_britannica_illustrated/tree/309f765b1ecc83e0a7f7762e44b4a927a7555443",
+  "license": {
+    "spdx": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "National Library of Scotland"
+  },
+  "pages": [
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:13",
+      "row_index": 13,
+      "volume_id": "193913444",
+      "filename": "page-0013-50049db49e8b.jpg",
+      "image_sha256": "50049db49e8b83dc59735eae8cc35e6df733062d4bcb07c5cb4663d51cade012",
+      "image_bytes": 171822
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:104",
+      "row_index": 104,
+      "volume_id": "193819045",
+      "filename": "page-0104-9aaa833a4643.jpg",
+      "image_sha256": "9aaa833a46437aa0cc322c1d5f37b5a4d013906d6d40bfc13ca14d19046d6f3f",
+      "image_bytes": 172680
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:115",
+      "row_index": 115,
+      "volume_id": "191809866",
+      "filename": "page-0115-9730fa72203a.jpg",
+      "image_sha256": "9730fa72203a62f8a1e7c163a1580032ab504daa705230f8112822b00f8bafc1",
+      "image_bytes": 134431
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:217",
+      "row_index": 217,
+      "volume_id": "149981189",
+      "filename": "page-0217-7dc36e3a55f8.jpg",
+      "image_sha256": "7dc36e3a55f8250a0b4a7854c3ac1ca73e4bfb1ae457129c889057610a8084e7",
+      "image_bytes": 153253
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:220",
+      "row_index": 220,
+      "volume_id": "149981189",
+      "filename": "page-0220-f28b3445b235.jpg",
+      "image_sha256": "f28b3445b2354a93e2efbd2647cb2058637dea9d7c095bb9c2e239624ac95565",
+      "image_bytes": 145593
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:247",
+      "row_index": 247,
+      "volume_id": "149981189",
+      "filename": "page-0247-cb5b8fd3e311.jpg",
+      "image_sha256": "cb5b8fd3e311a9bed8b2fe35f9cf9ede4c3a49a0b0e651afa8f9c811fd0e0534",
+      "image_bytes": 146823
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:251",
+      "row_index": 251,
+      "volume_id": "191679021",
+      "filename": "page-0251-69952e7c4a0f.jpg",
+      "image_sha256": "69952e7c4a0f40267d357d04308f674155b3ab206ce8f2f4887124ce481f8c1d",
+      "image_bytes": 155072
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:257",
+      "row_index": 257,
+      "volume_id": "191679021",
+      "filename": "page-0257-012cf5a82a33.jpg",
+      "image_sha256": "012cf5a82a33e24b9fbf8a9def7970590e8f8c97141a57a7ae5b3f1fcbaadffb",
+      "image_bytes": 151026
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:258",
+      "row_index": 258,
+      "volume_id": "191679021",
+      "filename": "page-0258-631a7ae7df34.jpg",
+      "image_sha256": "631a7ae7df340a64a33318be0161e911b328ec2b7354754da2dc37a1606ece4c",
+      "image_bytes": 166091
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:261",
+      "row_index": 261,
+      "volume_id": "192015836",
+      "filename": "page-0261-881563669b04.jpg",
+      "image_sha256": "881563669b04b487e86fd839d3c3ed37df89ebbf558afc819085fdba215bff61",
+      "image_bytes": 131171
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:266",
+      "row_index": 266,
+      "volume_id": "149982181",
+      "filename": "page-0266-dfbe51d09127.jpg",
+      "image_sha256": "dfbe51d091279145e37f51fdee7d7b6903c89ea6d64f90fb27913a7d0437e246",
+      "image_bytes": 152617
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:268",
+      "row_index": 268,
+      "volume_id": "149982181",
+      "filename": "page-0268-4f70fe5dafd6.jpg",
+      "image_sha256": "4f70fe5dafd60ccb4d258630071448612eebe999713dac3954c2011faacf3929",
+      "image_bytes": 166694
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:270",
+      "row_index": 270,
+      "volume_id": "149982181",
+      "filename": "page-0270-6831cc1f149b.jpg",
+      "image_sha256": "6831cc1f149b50ecdf07b3af7ab3e4ef10572a486faafa06481061973c4100f8",
+      "image_bytes": 96684
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:318",
+      "row_index": 318,
+      "volume_id": "191253835",
+      "filename": "page-0318-9d0e08d8ed22.jpg",
+      "image_sha256": "9d0e08d8ed22f5b38cf346df295e4940256ee6904fa14f8fb66cb815b7d8a1d6",
+      "image_bytes": 162237
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:374",
+      "row_index": 374,
+      "volume_id": "191253799",
+      "filename": "page-0374-2b13c7e2a0e0.jpg",
+      "image_sha256": "2b13c7e2a0e0431e45b77999eb1745e0fe718efc79eb85c6af22a599f7c18382",
+      "image_bytes": 34257
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:383",
+      "row_index": 383,
+      "volume_id": "191689062",
+      "filename": "page-0383-018fb71412b2.jpg",
+      "image_sha256": "018fb71412b2c0c66f9e9afefa55448a8bc9910b962f68d60bceb3b17b3b8161",
+      "image_bytes": 136925
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:403",
+      "row_index": 403,
+      "volume_id": "193469091",
+      "filename": "page-0403-44f912e1c323.jpg",
+      "image_sha256": "44f912e1c3237b35750b6e188e94f3a20f2af3f1dba0a4bdb630dff640ddbf3c",
+      "image_bytes": 172284
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:452",
+      "row_index": 452,
+      "volume_id": "144850376",
+      "filename": "page-0452-233256cb3c3c.jpg",
+      "image_sha256": "233256cb3c3c25e03e847aa65e26f3e82cd05f8ef6e302c7ce69fe42a042f2cf",
+      "image_bytes": 129832
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:473",
+      "row_index": 473,
+      "volume_id": "192984255",
+      "filename": "page-0473-4ab88a7103cd.jpg",
+      "image_sha256": "4ab88a7103cd8f6c0c4f49cde0370890e3cbca2af72a6a90f8e7db56d053c32d",
+      "image_bytes": 156772
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:493",
+      "row_index": 493,
+      "volume_id": "192984257",
+      "filename": "page-0493-29246f4d055a.jpg",
+      "image_sha256": "29246f4d055a224974dd91ae949df53daace4862c8dff8f0b2fb6b8a7490444a",
+      "image_bytes": 144036
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:499",
+      "row_index": 499,
+      "volume_id": "192984257",
+      "filename": "page-0499-5eb663c6a072.jpg",
+      "image_sha256": "5eb663c6a072b065f93be154549eac3fbe59f6f6b4c12a392e8f406e32a3c528",
+      "image_bytes": 162667
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:513",
+      "row_index": 513,
+      "volume_id": "144850375",
+      "filename": "page-0513-b5d3417f845a.jpg",
+      "image_sha256": "b5d3417f845a088da08dc55efa1095633fe0e0decb3d4cfae4b1d30692eb61e6",
+      "image_bytes": 174285
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:523",
+      "row_index": 523,
+      "volume_id": "144850375",
+      "filename": "page-0523-a583606e375a.jpg",
+      "image_sha256": "a583606e375ad92d79af8ad8b4fabc4fa22632e6ccbeea6e20f0fa47a27e2858",
+      "image_bytes": 174252
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:546",
+      "row_index": 546,
+      "volume_id": "144850375",
+      "filename": "page-0546-7c6f39d92d2b.jpg",
+      "image_sha256": "7c6f39d92d2b138c157a67a3e8fd5165574195cf6643aa1a15c03a243e962708",
+      "image_bytes": 149892
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:560",
+      "row_index": 560,
+      "volume_id": "191253801",
+      "filename": "page-0560-c458f594fc79.jpg",
+      "image_sha256": "c458f594fc79392e42082ac7a8c338082e8d5e2c2c79dd2f49f1940b91144300",
+      "image_bytes": 153260
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:563",
+      "row_index": 563,
+      "volume_id": "191253801",
+      "filename": "page-0563-d12ce09577cd.jpg",
+      "image_sha256": "d12ce09577cd595ffccb50fb02c3988a960dc48cddaf8a615756fb5f60aaa587",
+      "image_bytes": 147746
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:604",
+      "row_index": 604,
+      "volume_id": "193819047",
+      "filename": "page-0604-c50a825dd732.jpg",
+      "image_sha256": "c50a825dd732a96ef099cb60b5160d5fadaf7974163160bf5a2ac4446c70b631",
+      "image_bytes": 170724
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:611",
+      "row_index": 611,
+      "volume_id": "191320558",
+      "filename": "page-0611-4a137a2c6b07.jpg",
+      "image_sha256": "4a137a2c6b0772a82850ed78c5cb2c6ffd9751f4d7fc1345b3f8035665a788ea",
+      "image_bytes": 129182
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:651",
+      "row_index": 651,
+      "volume_id": "192692192",
+      "filename": "page-0651-a4e89a900a40.jpg",
+      "image_sha256": "a4e89a900a4041b934828dcc5c677df6edf0de903ab97d097948b7b17427da7d",
+      "image_bytes": 72680
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:681",
+      "row_index": 681,
+      "volume_id": "144850368",
+      "filename": "page-0681-c2be06f2d615.jpg",
+      "image_sha256": "c2be06f2d6151658124b91589cab6163caa72e653bc6e1d62ecc30bbf9a202ee",
+      "image_bytes": 170432
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:713",
+      "row_index": 713,
+      "volume_id": "144850368",
+      "filename": "page-0713-3db0c66f81f4.jpg",
+      "image_sha256": "3db0c66f81f48bd0948a7644d3f0c1c4213d3d49e54c500a317bf147695b1fc5",
+      "image_bytes": 161433
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:756",
+      "row_index": 756,
+      "volume_id": "191253808",
+      "filename": "page-0756-33eb91fcbe8d.jpg",
+      "image_sha256": "33eb91fcbe8d9d080f38ca26a23b791f56382bebff38a428cd4ac3cd30fb48f3",
+      "image_bytes": 142894
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:851",
+      "row_index": 851,
+      "volume_id": "144850378",
+      "filename": "page-0851-6e2a0b999324.jpg",
+      "image_sha256": "6e2a0b9993242da4f83259432110d6929e728a4c0e58a9e79a16ff80a6fd1861",
+      "image_bytes": 158537
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:914",
+      "row_index": 914,
+      "volume_id": "194167545",
+      "filename": "page-0914-28ee06f6b377.jpg",
+      "image_sha256": "28ee06f6b377256adf9bf8eb6fc9e1be0c70622d782be5cea16690734b449399",
+      "image_bytes": 161012
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:944",
+      "row_index": 944,
+      "volume_id": "149982692",
+      "filename": "page-0944-3e9ba80e3606.jpg",
+      "image_sha256": "3e9ba80e36062b293c841f4da56710baedc83a81a59be0002f2bacd2223eb2e4",
+      "image_bytes": 94894
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:948",
+      "row_index": 948,
+      "volume_id": "149982692",
+      "filename": "page-0948-7daaf1d3d872.jpg",
+      "image_sha256": "7daaf1d3d872629a521dadf0381158556417d41f436b00ed4fbd44d78123473c",
+      "image_bytes": 83233
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1017",
+      "row_index": 1017,
+      "volume_id": "144850367",
+      "filename": "page-1017-5395deb0e141.jpg",
+      "image_sha256": "5395deb0e1413694dd6a4e16890741c049681f5838d6fc92ef14a3019a1c87a4",
+      "image_bytes": 162061
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1032",
+      "row_index": 1032,
+      "volume_id": "144850367",
+      "filename": "page-1032-e28420685b47.jpg",
+      "image_sha256": "e28420685b477a2b18e236ef8ee526cd07fd1053082d5825198b00a8171278e0",
+      "image_bytes": 137298
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1102",
+      "row_index": 1102,
+      "volume_id": "193109114",
+      "filename": "page-1102-918dd1676cc2.jpg",
+      "image_sha256": "918dd1676cc2e6299e46d7d5610d5c3ee90a2c5fe401b45e30691f8e313293bc",
+      "image_bytes": 152526
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1166",
+      "row_index": 1166,
+      "volume_id": "193108323",
+      "filename": "page-1166-ec9dc1d6c2c9.jpg",
+      "image_sha256": "ec9dc1d6c2c96661593803f1cde606a6c27b453bccb4803b9562db602f4c0c69",
+      "image_bytes": 167145
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1214",
+      "row_index": 1214,
+      "volume_id": "149979156",
+      "filename": "page-1214-17d180a99e0a.jpg",
+      "image_sha256": "17d180a99e0a48546a555d98cd7fdf15bb8f8ea4b751c50e02536eba79c2473a",
+      "image_bytes": 159215
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1250",
+      "row_index": 1250,
+      "volume_id": "149979156",
+      "filename": "page-1250-2e0c75f85418.jpg",
+      "image_sha256": "2e0c75f854185185ace0f165eea2b904222208282d93a1c66b97c9b5c42f5c95",
+      "image_bytes": 144044
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1268",
+      "row_index": 1268,
+      "volume_id": "194474782",
+      "filename": "page-1268-e5ec9e5b4086.jpg",
+      "image_sha256": "e5ec9e5b4086576d908e749cf55ee5aa6db8079444bb0961627c9475b434ca7e",
+      "image_bytes": 148290
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1284",
+      "row_index": 1284,
+      "volume_id": "190273289",
+      "filename": "page-1284-b6a1ee180d42.jpg",
+      "image_sha256": "b6a1ee180d4254f561bccaf072231163bd53aa804dad1fd5718590f53b90f394",
+      "image_bytes": 173511
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1298",
+      "row_index": 1298,
+      "volume_id": "193322688",
+      "filename": "page-1298-4795a8a1d020.jpg",
+      "image_sha256": "4795a8a1d020cc79cdb250a14d1e2304e937c6cfcb49cc6664d3e8a43b8397b8",
+      "image_bytes": 166731
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1324",
+      "row_index": 1324,
+      "volume_id": "149981670",
+      "filename": "page-1324-2cfbaa25a150.jpg",
+      "image_sha256": "2cfbaa25a150c2ea23ac854aafdb05fa22f350334e1404f609866a252d061217",
+      "image_bytes": 142108
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1327",
+      "row_index": 1327,
+      "volume_id": "149981670",
+      "filename": "page-1327-7d41b1db21d5.jpg",
+      "image_sha256": "7d41b1db21d5e291f0cbf58aa92f8820d11602e700d5e337935c65b9d75b6211",
+      "image_bytes": 148965
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1344",
+      "row_index": 1344,
+      "volume_id": "149981670",
+      "filename": "page-1344-b5c2505d4784.jpg",
+      "image_sha256": "b5c2505d4784ce9e909dbebeedb4858735d3550cf3e7506a2a92c391393e8cc2",
+      "image_bytes": 147892
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1400",
+      "row_index": 1400,
+      "volume_id": "191689065",
+      "filename": "page-1400-2d754e996979.jpg",
+      "image_sha256": "2d754e996979c6641f694d6cedb375295f8581717f69010bf705075f8dd5de9a",
+      "image_bytes": 97400
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1415",
+      "row_index": 1415,
+      "volume_id": "149979622",
+      "filename": "page-1415-d28d11d04726.jpg",
+      "image_sha256": "d28d11d047269c4378e2a038829a2e80312fca36533bc35728f3c45768d0fb89",
+      "image_bytes": 158365
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1422",
+      "row_index": 1422,
+      "volume_id": "149979622",
+      "filename": "page-1422-8d39d99af992.jpg",
+      "image_sha256": "8d39d99af99249708a75d8e526080ae109f37e42e0fecd3c25a81e10774f2f4e",
+      "image_bytes": 162907
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1430",
+      "row_index": 1430,
+      "volume_id": "149979622",
+      "filename": "page-1430-4405fefdf7b6.jpg",
+      "image_sha256": "4405fefdf7b68a3c6472787e25922ed5125f57c753e650518ecdaaf630f59566",
+      "image_bytes": 159754
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1466",
+      "row_index": 1466,
+      "volume_id": "149979622",
+      "filename": "page-1466-bb41810e6962.jpg",
+      "image_sha256": "bb41810e69624a12ba0855ee98b3a60633979581d1be11f1b33bdaf7f1fba919",
+      "image_bytes": 163458
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1473",
+      "row_index": 1473,
+      "volume_id": "149979622",
+      "filename": "page-1473-b3b602ef6a3d.jpg",
+      "image_sha256": "b3b602ef6a3d4961fd1926a15d634a40ec929c15b00e2f7cc5109b3f7180daac",
+      "image_bytes": 145613
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1580",
+      "row_index": 1580,
+      "volume_id": "144133903",
+      "filename": "page-1580-e0bdcd3f241e.jpg",
+      "image_sha256": "e0bdcd3f241e27ff8e01ab1d9d2d473bc5373e9ac54cdbd1887cf0407fbf0eaa",
+      "image_bytes": 158573
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1614",
+      "row_index": 1614,
+      "volume_id": "144133903",
+      "filename": "page-1614-ea352b487d65.jpg",
+      "image_sha256": "ea352b487d650c713a3e6bdd8e4bc1ded85e0d7558c3fa1d9cdbce89abc38ca3",
+      "image_bytes": 161648
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1615",
+      "row_index": 1615,
+      "volume_id": "144133903",
+      "filename": "page-1615-664ff8d7d9b2.jpg",
+      "image_sha256": "664ff8d7d9b21a4369b87ea0530c1d02a28e471fbf47881d5d787ac60f0826fd",
+      "image_bytes": 38748
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1649",
+      "row_index": 1649,
+      "volume_id": "149978642",
+      "filename": "page-1649-e6a1fc569876.jpg",
+      "image_sha256": "e6a1fc5698767dd40265a849aa559e35ef251daca6cf3e82cf486dd083a4e3e0",
+      "image_bytes": 148248
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1670",
+      "row_index": 1670,
+      "volume_id": "149978642",
+      "filename": "page-1670-ced69857efba.jpg",
+      "image_sha256": "ced69857efbaddd760fb2634b21a1c56dcc9c43fabda3705dd3b69f16e93c707",
+      "image_bytes": 136228
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1678",
+      "row_index": 1678,
+      "volume_id": "193108319",
+      "filename": "page-1678-75b494c1b4fb.jpg",
+      "image_sha256": "75b494c1b4fb241bd9dcaba505dfb1732b3c54ff9f843f0d4a7c1c31110a6ec8",
+      "image_bytes": 124140
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1680",
+      "row_index": 1680,
+      "volume_id": "193108319",
+      "filename": "page-1680-fbb4a5fde0c2.jpg",
+      "image_sha256": "fbb4a5fde0c2b233b6df827e5998ef2fc15cd2bc73b4eb99b93d91db83199d1b",
+      "image_bytes": 153259
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1722",
+      "row_index": 1722,
+      "volume_id": "149977338",
+      "filename": "page-1722-bda8f6e99dca.jpg",
+      "image_sha256": "bda8f6e99dca3137bcc24a247711bb8a5b44e4442131f0bb341049bfe2c6d63f",
+      "image_bytes": 167341
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1765",
+      "row_index": 1765,
+      "volume_id": "192547785",
+      "filename": "page-1765-1e78e19e88aa.jpg",
+      "image_sha256": "1e78e19e88aaf40a7bd00e0b6aa80d85e71c8e99f2ae6cb788aeaa32838e45b3",
+      "image_bytes": 155878
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1803",
+      "row_index": 1803,
+      "volume_id": "191320560",
+      "filename": "page-1803-0b6da50e5c8a.jpg",
+      "image_sha256": "0b6da50e5c8a63c331ace8127e04d5cdf23a5dfe27e0eb0d868fa2220e33f47e",
+      "image_bytes": 134919
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1805",
+      "row_index": 1805,
+      "volume_id": "191320560",
+      "filename": "page-1805-226885408318.jpg",
+      "image_sha256": "2268854083181b93f7bf134647f2e3214aacdd4ce0279092f4743cf113d32abd",
+      "image_bytes": 137387
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1818",
+      "row_index": 1818,
+      "volume_id": "193108322",
+      "filename": "page-1818-e6693d1961ef.jpg",
+      "image_sha256": "e6693d1961ef5657ea724a54f5c12cc8b62568f84a2ff587847275075a99e6a0",
+      "image_bytes": 178778
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1828",
+      "row_index": 1828,
+      "volume_id": "193108322",
+      "filename": "page-1828-9ca50fbf1eeb.jpg",
+      "image_sha256": "9ca50fbf1eeb13c6abdd7e6d93a69f6c9ad3460d0a6e26c49a0ad5c52b788aa2",
+      "image_bytes": 170373
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1845",
+      "row_index": 1845,
+      "volume_id": "193819043",
+      "filename": "page-1845-a758ad9d45a7.jpg",
+      "image_sha256": "a758ad9d45a7173d220cf1ae4e2c98e462082a9ad3b0185ff4d8121b5631b0fa",
+      "image_bytes": 45327
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1904",
+      "row_index": 1904,
+      "volume_id": "144850377",
+      "filename": "page-1904-759854fd95bb.jpg",
+      "image_sha256": "759854fd95bb63859232323bbddae58dd20122c44ba36e429b4243846268277d",
+      "image_bytes": 157691
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1910",
+      "row_index": 1910,
+      "volume_id": "144850377",
+      "filename": "page-1910-f4723acc1771.jpg",
+      "image_sha256": "f4723acc17718590625f337a0d5ddeef3e257ff963f793fe287f0f0cb81834ee",
+      "image_bytes": 172256
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1933",
+      "row_index": 1933,
+      "volume_id": "144850379",
+      "filename": "page-1933-ae507137e9dc.jpg",
+      "image_sha256": "ae507137e9dccc05ea8a69ead38423f1107c58ffe3152883775f70afc1694223",
+      "image_bytes": 168026
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1939",
+      "row_index": 1939,
+      "volume_id": "144850379",
+      "filename": "page-1939-0f50bb0b2f40.jpg",
+      "image_sha256": "0f50bb0b2f406428516bb469f72abc9fc9fa54cdb87fbdff0adae232ef9c2384",
+      "image_bytes": 171352
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1942",
+      "row_index": 1942,
+      "volume_id": "144850379",
+      "filename": "page-1942-99b5dc3b4c6c.jpg",
+      "image_sha256": "99b5dc3b4c6cd19e10ef2da5ff4549329115fd8dba02d32d04fb855d1c774164",
+      "image_bytes": 163822
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1945",
+      "row_index": 1945,
+      "volume_id": "144850379",
+      "filename": "page-1945-d877e2c0e7d6.jpg",
+      "image_sha256": "d877e2c0e7d6979331208cad696389c92af546a9707a21816f1962452815285f",
+      "image_bytes": 172923
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2001",
+      "row_index": 2001,
+      "volume_id": "192200899",
+      "filename": "page-2001-93040a5ab362.jpg",
+      "image_sha256": "93040a5ab3625efc0259c9878caea3e2285bc73aae0c1fda452f9f5198dedd67",
+      "image_bytes": 150110
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2051",
+      "row_index": 2051,
+      "volume_id": "192545785",
+      "filename": "page-2051-588566464df4.jpg",
+      "image_sha256": "588566464df4b426ffc48c73095181f8040fb4c5dfb1bf3ef4738390589d2302",
+      "image_bytes": 154052
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2077",
+      "row_index": 2077,
+      "volume_id": "149983206",
+      "filename": "page-2077-b2d54e4a68a4.jpg",
+      "image_sha256": "b2d54e4a68a40bc5fcab441f145cad23b492703c1a2875add967517dceaaefbd",
+      "image_bytes": 46302
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2087",
+      "row_index": 2087,
+      "volume_id": "193108324",
+      "filename": "page-2087-4b834c6b315d.jpg",
+      "image_sha256": "4b834c6b315dd646994b9bac6e843fe2108b703185b904d99893a4a42ef304b1",
+      "image_bytes": 151479
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2093",
+      "row_index": 2093,
+      "volume_id": "193108316",
+      "filename": "page-2093-4b43bdcc663f.jpg",
+      "image_sha256": "4b43bdcc663fb9fad54e0e68bb4b2494f0734ae88b667ac4e35071785a273bc2",
+      "image_bytes": 124111
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2108",
+      "row_index": 2108,
+      "volume_id": "149977873",
+      "filename": "page-2108-6874128a519b.jpg",
+      "image_sha256": "6874128a519b8cf9cd9de001ba48c06556b084267e667c07a65ea596b6b51576",
+      "image_bytes": 158785
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2131",
+      "row_index": 2131,
+      "volume_id": "149977873",
+      "filename": "page-2131-f30c24bfdf3b.jpg",
+      "image_sha256": "f30c24bfdf3b22773525a1262af33f8a656dd6dbb04d030b3d3e030cbde5405a",
+      "image_bytes": 144378
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2155",
+      "row_index": 2155,
+      "volume_id": "149977873",
+      "filename": "page-2155-e6a255b57f58.jpg",
+      "image_sha256": "e6a255b57f58111cfacbee95ebd743a4700db1eaef4feff1f5e2abd0bcce74e7",
+      "image_bytes": 127710
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2171",
+      "row_index": 2171,
+      "volume_id": "144850373",
+      "filename": "page-2171-f8869fa95f19.jpg",
+      "image_sha256": "f8869fa95f190d0e556bf8d2397c0c36da436ea1b23405995f0aac0f398f26d5",
+      "image_bytes": 183795
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2209",
+      "row_index": 2209,
+      "volume_id": "144133901",
+      "filename": "page-2209-1ee9bc409f67.jpg",
+      "image_sha256": "1ee9bc409f6798b0e4f4e45d63d75caae5197059df72701387ee24385cbff28e",
+      "image_bytes": 86714
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2243",
+      "row_index": 2243,
+      "volume_id": "144133901",
+      "filename": "page-2243-0bd9a3e05239.jpg",
+      "image_sha256": "0bd9a3e052398fa30c19e0b42ee28f70418b570cc1039ea2a454411dedb4972d",
+      "image_bytes": 97265
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2250",
+      "row_index": 2250,
+      "volume_id": "144133901",
+      "filename": "page-2250-75315f455009.jpg",
+      "image_sha256": "75315f45500988daa37cc73e58bee8b227772229b576475ee23ddb584172baee",
+      "image_bytes": 127537
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2277",
+      "row_index": 2277,
+      "volume_id": "192545783",
+      "filename": "page-2277-cdde2fc730b9.jpg",
+      "image_sha256": "cdde2fc730b9b43e147b41385c61a207df3d0519a0ec368e9bbc3b3ecd4432de",
+      "image_bytes": 122429
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2296",
+      "row_index": 2296,
+      "volume_id": "191320559",
+      "filename": "page-2296-487afb796c01.jpg",
+      "image_sha256": "487afb796c010b5708a60a798cd2b38cff43eea65fd8949d3ae509d3a6f63a13",
+      "image_bytes": 135823
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2307",
+      "row_index": 2307,
+      "volume_id": "144850370",
+      "filename": "page-2307-4ce2ea50e9d2.jpg",
+      "image_sha256": "4ce2ea50e9d2f4035fe1405b86ee2d40131a8b739a494cc64b0c0fab124fe2a5",
+      "image_bytes": 178990
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2402",
+      "row_index": 2402,
+      "volume_id": "193057500",
+      "filename": "page-2402-5030b31ea901.jpg",
+      "image_sha256": "5030b31ea90173a447b4749960488cdeab085e4ff2f4bf49cf473614e50ce29e",
+      "image_bytes": 163915
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2424",
+      "row_index": 2424,
+      "volume_id": "193322698",
+      "filename": "page-2424-dd2506be16cf.jpg",
+      "image_sha256": "dd2506be16cf7abc83d6915d2eeca90ede40d89a0e648c6741d1ea42ee73e4b7",
+      "image_bytes": 148632
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2446",
+      "row_index": 2446,
+      "volume_id": "144133902",
+      "filename": "page-2446-692d680df6a9.jpg",
+      "image_sha256": "692d680df6a9023fab76d686360d380fd4e7491a6a607a6f10835cc740d21619",
+      "image_bytes": 160774
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2448",
+      "row_index": 2448,
+      "volume_id": "144133902",
+      "filename": "page-2448-f5e4884f245d.jpg",
+      "image_sha256": "f5e4884f245dcd6ad7cc397797014544877dd30c843c6dde29d97203b6b52245",
+      "image_bytes": 169616
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2464",
+      "row_index": 2464,
+      "volume_id": "144133902",
+      "filename": "page-2464-24f450326eee.jpg",
+      "image_sha256": "24f450326eee13b008306d2b355bd49b295db96603186268db20b85552cf958e",
+      "image_bytes": 143490
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2473",
+      "row_index": 2473,
+      "volume_id": "144133902",
+      "filename": "page-2473-b849fb7f25f2.jpg",
+      "image_sha256": "b849fb7f25f25b39685069d12c13b17d47169beeea958446bdff439c230a0f65",
+      "image_bytes": 169635
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2479",
+      "row_index": 2479,
+      "volume_id": "144133902",
+      "filename": "page-2479-cdaf43d24336.jpg",
+      "image_sha256": "cdaf43d2433627837ca31a4db92739a8fdb6045d1d0abc637abfebf2fc448f9a",
+      "image_bytes": 181660
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2493",
+      "row_index": 2493,
+      "volume_id": "192984254",
+      "filename": "page-2493-84519542efce.jpg",
+      "image_sha256": "84519542efceeb7511318fcd5cf2213ed3dc634dd20638613d3ba33a500c2393",
+      "image_bytes": 155102
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2524",
+      "row_index": 2524,
+      "volume_id": "193638940",
+      "filename": "page-2524-beb66523a80a.jpg",
+      "image_sha256": "beb66523a80a02350493c079931f33a6d09311680beafefe622c7f08c04a74c3",
+      "image_bytes": 170064
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2569",
+      "row_index": 2569,
+      "volume_id": "192547781",
+      "filename": "page-2569-e8e9334880f9.jpg",
+      "image_sha256": "e8e9334880f9e63008622bc2d1196536177dfc1b0a45b3abf304dbcf2a4e72e7",
+      "image_bytes": 162477
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2570",
+      "row_index": 2570,
+      "volume_id": "192547781",
+      "filename": "page-2570-364adfefc0b1.jpg",
+      "image_sha256": "364adfefc0b17833777e04973fd5d32fe490446622be257cba01f40a110e77ae",
+      "image_bytes": 155780
+    }
+  ],
+  "manifest_sha256": "779542e078756874f23fa6971d7d8a2d8635ad6d9d9484e1deb607d94a28e396"
+}

@@ -1,0 +1,6 @@
+name: nemotron-challenge
+version: "0.1.0"
+description: Participant comparison tool scaffold. Team implementation required.
+provides_tools:
+  - challenge_compare
+capabilities: []

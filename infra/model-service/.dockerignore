@@ -1,0 +1,9 @@
+**
+!Dockerfile
+!requirements.lock
+!model_pins.py
+!download_models.py
+!contracts.py
+!backend.py
+!app.py
+!NOTICE.md

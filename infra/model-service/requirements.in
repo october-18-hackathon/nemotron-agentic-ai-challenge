@@ -1,0 +1,12 @@
+# The Docker base provides the CUDA 12.8 builds of torch and torchvision.
+torch==2.8.0+cu128
+torchvision==0.23.0+cu128
+transformers==4.56.2
+tokenizers==0.22.2
+accelerate==1.10.1
+huggingface-hub==0.36.2
+Pillow==11.3.0
+requests==2.32.5
+fastapi==0.116.1
+pydantic==2.11.9
+uvicorn==0.35.0

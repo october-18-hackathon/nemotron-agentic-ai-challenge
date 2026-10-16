@@ -1,0 +1,18 @@
+# Copy this file into a separate Hermes profile. Supply SUPER_API_KEY through its environment.
+providers:
+  tokenfactory-super:
+    api: https://api.tokenfactory.nebius.com/v1
+    key_env: SUPER_API_KEY
+    transport: chat_completions
+    default_model: nvidia/Nemotron-3.5-Super-VL
+
+model:
+  provider: custom:tokenfactory-super
+  default: nvidia/Nemotron-3.5-Super-VL
+  supports_vision: true
+
+model_overrides:
+  "custom:tokenfactory-super":
+    "nvidia/Nemotron-3.5-Super-VL":
+      supports_tools: true
+      supports_vision: true
