@@ -8,6 +8,10 @@ Your team builds the extraction workflow, article matching, comparisons, agent t
 
 ## Start
 
+Create your team's repository from this GitHub template.
+Clone your repository.
+Open a terminal in its root directory.
+
 Install [uv](https://docs.astral.sh/uv/getting-started/installation/).
 Use Python 3.12.
 
