@@ -6,6 +6,16 @@ Work with your coding agent to complete the project stages.
 This starter supplies setup code, model clients, source data contracts, and checks.
 Your team builds the extraction workflow, article matching, comparisons, agent tools, and website.
 
+## Infrastructure
+
+Britannica scans enter your CPU workspace for ingestion and caching.
+Your tools call the shared Parse and Wikipedia APIs and your team's GPU services.
+Hermes runs in the CPU workspace and calls Super VL through Token Factory.
+
+![Participant infrastructure and Britannica ingestion](docs/assets/nebius-participant-infrastructure.png)
+
+[Full-size PNG](docs/assets/nebius-participant-infrastructure.png) · [Editable SVG](docs/assets/nebius-participant-infrastructure.svg)
+
 ## Start
 
 Create your team's repository from this GitHub template.

@@ -45,3 +45,8 @@ This repository does not contain those model weights.
 Python packages, PyTorch, and the Docker base image retain their licenses.
 Hermes Agent retains the license in its upstream repository.
 Keep upstream notices when you distribute those components.
+
+## Diagram font
+
+The editable infrastructure SVG embeds DejaVu Sans.
+The font retains its [license notice](docs/assets/DejaVu-LICENSE.txt).
