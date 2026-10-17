@@ -48,5 +48,5 @@ Keep upstream notices when you distribute those components.
 
 ## Diagram font
 
-The editable infrastructure SVG embeds DejaVu Sans.
+The editable infrastructure and BERTopic SVGs embed DejaVu Sans.
 The font retains its [license notice](docs/assets/DejaVu-LICENSE.txt).

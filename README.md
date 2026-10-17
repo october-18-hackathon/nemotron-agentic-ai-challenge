@@ -50,8 +50,27 @@ The first fetch downloads a pinned Parquet file of about 357 MiB.
 The loader writes the selected scans to `data/raw/britannica`.
 It leaves the source cache unchanged.
 
-Use the shared [Wikipedia API](docs/wikipedia-api.md) to search the full English corpus.
+Use the shared [Wikipedia API](docs/wikipedia-api.md) to search the pinned English Wikipedia snapshot.
 Teams do not need to download or build that index.
+
+### Why Wikipedia is pre-indexed
+
+The organizer has built a BM25 keyword index over 7,182,883 canonical English articles from a fixed snapshot.
+This saves each team the download, storage, and index-building work for that corpus.
+All teams search the same source revision.
+Search makes no embedding or reasoning model calls.
+
+Participants use it as follows:
+
+1. Extract a Britannica entry with Parse 3.5.
+2. Search terms from the entry to get candidate article IDs and excerpts.
+3. Fetch candidate article text through the paginated article API.
+4. Use Nemotron embeddings and reranking to assess candidates and decide whether a match is supported.
+5. Cache the selected text and source metadata for comparisons and agent evidence.
+
+The shared index supplies candidates, not verified Britannica matches.
+Your team's LanceDB index holds its chosen evidence and vectors, separate from the shared keyword index.
+Read the [API guide](docs/wikipedia-api.md) for client calls, pagination, and citation metadata.
 
 ## Set up the models
 
@@ -83,6 +102,17 @@ uv run nemotron-challenge run extract
 Read the [challenge brief](docs/challenge.md) for the required models and deliverables.
 Use the [submission template](templates/submission.md) to record your results.
 Submit a video of 3 to 5 minutes and your solution repository.
+
+### Topic comparison with BERTopic
+
+The illustration shows one method for comparing Britannica entries with selected Wikipedia articles.
+It uses Nemotron embeddings for both sources, then UMAP, HDBSCAN, term counts, and c-TF-IDF.
+The optional Super VL stage generates topic labels and summaries without training model weights.
+Choose your comparison method with your team.
+
+![BERTopic with Nemotron embeddings and optional Super VL topic refinement](docs/assets/bertopic-nemotron-implementation.png)
+
+[Full-size PNG](docs/assets/bertopic-nemotron-implementation.png) · [Editable SVG](docs/assets/bertopic-nemotron-implementation.svg)
 
 ## Check the foundation
 
