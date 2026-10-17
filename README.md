@@ -72,6 +72,24 @@ The shared index supplies candidates, not verified Britannica matches.
 Your team's LanceDB index holds its chosen evidence and vectors, separate from the shared keyword index.
 Read the [API guide](docs/wikipedia-api.md) for client calls, pagination, and citation metadata.
 
+### Multimodal matching concept
+
+This illustration uses Wikipedia article text as a query to find Britannica page scans about the same subject.
+Nemotron Embedder VL encodes the scans, with optional extracted text, into page vectors.
+It encodes the article title and selected excerpt into a query vector.
+Similarity search returns a shortlist of page IDs.
+Nemotron Reranker VL then reads the query text with each original candidate page and ranks the results.
+
+![Conceptual workflow from Wikipedia article text through Nemotron Embedder VL similarity search and Nemotron Reranker VL to ranked Britannica pages](docs/assets/nemotron-vl-matching.png)
+
+[Full-size PNG](docs/assets/nemotron-vl-matching.png)
+
+The challenge starts from Britannica entries and searches Wikipedia through the shared API.
+The diagram reverses that direction to explain the models' text and image inputs.
+Your team chooses its matching method and checks each selected association against both sources.
+The page examples are illustrative. Relevance scores do not establish factual agreement or identical coverage.
+See the [Embed VL model card](https://huggingface.co/nvidia/llama-nemotron-embed-vl-1b-v2) and [Rerank VL model card](https://huggingface.co/nvidia/llama-nemotron-rerank-vl-1b-v2) for the model contracts.
+
 ## Set up the models
 
 The organizer supplies Parse 3.5 and the Wikipedia API.
